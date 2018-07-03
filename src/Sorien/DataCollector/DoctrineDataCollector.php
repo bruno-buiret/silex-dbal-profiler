@@ -167,4 +167,17 @@ class DoctrineDataCollector extends DataCollector
 
         return array($var, true);
     }
+
+    /**
+     * Resets this data collector to its initial state.
+     */
+    public function reset()
+    {
+        $this->data = array();
+
+        foreach ($this->loggers as $logger) {
+            $logger->queries = array();
+            $logger->currentQuery = 0;
+        }
+    }
 }
