@@ -1,5 +1,5 @@
 {
-    "name": "bi0r0b0t/silex-dbal-profiler",
+    "name": "bruno-buiret/silex-dbal-profiler",
     "description": "Doctrine DBAL Profiler for Silex",
     "keywords": [
         "silex",
@@ -17,6 +17,10 @@
         {
             "name" : "Mikhail Dolgov",
             "email": "dolgov@bk.ru"
+        },
+        {
+            "name": "Bruno Buiret",
+            "email": "bruno.buiret@gmail.com"
         }
     ],
     "require": {
